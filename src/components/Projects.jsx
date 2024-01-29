@@ -20,7 +20,7 @@ const Projects = () => {
         projectDescription: "Our Python-based project combines image background removal and size reduction seamlessly using popular packages like Pillow and OpenCV. Users can effortlessly remove backgrounds with precision algorithms, enhancing image versatility for various applications. Additionally, the tool allows resizing images to desired dimensions while maintaining aspect ratios, optimizing them for different platforms. With a user-friendly interface and efficient processing, our project streamlines image editing tasks, saving time and effort. Whether for graphic design, e-commerce, or personal use, our solution empowers users to achieve professional-quality results with ease, making it an essential tool for diverse image editing needs.",
         technology: ["fab fa-python"],
         codeLink: "https://github.com/knowaboutayan/image-compressor-and-converter",
-      
+
     },
     {
         projectName: "Password Generator",
@@ -50,7 +50,7 @@ const Projects = () => {
         codeLink: "https://github.com/knowaboutayan/Matrix-Operations",
         viewLink: "https://matrix-operations-dusky.vercel.app/"
     }
-    
+
 
     ];
 
@@ -58,18 +58,22 @@ const Projects = () => {
 
     const clicked = (e) => {
         setIndex(e)
+        clearInterval(autoSwitch);
+        autoSwitch;
+
     }
-    
+    const autoSwitch = setInterval(() => setIndex(pre => (pre + 1) % projectDetails.length), 5000);
+
     return (
         <>   <SectionTitle sectionName={"Project"} />
             <div className="flex flexRowDirection flexWrap projectBox">
                 <div id="projectList" className="flex flexColumnDirection">
                     {
-                        projectDetails.map((project) => <><p  className={`flex centerAlign ${index===projectDetails.indexOf(project)?"activeProject":"p"}`} onClick={() => clicked(projectDetails.indexOf(project))} key={project.projectName}>{project.projectName}</p></>)
+                        projectDetails.map((project) => <><p className={`flex centerAlign ${index === projectDetails.indexOf(project) ? "activeProject" : "p"}`} onClick={() => clicked(projectDetails.indexOf(project))} key={project.projectName}>{project.projectName}</p></>)
                     }
                 </div>
                 <div id="projectDetails" >
-                    {(index <projectDetails.length  && index >= 0) ? <ProjectCard projectDetails={projectDetails[index]} /> : null}
+                    {(index < projectDetails.length && index >= 0) ? <ProjectCard projectDetails={projectDetails[index]} /> : null}
                 </div>
             </div>
         </>
