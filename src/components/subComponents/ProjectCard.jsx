@@ -9,7 +9,7 @@ const ProjectCard = ({ projectDetails = {} }) => {
             <div className='centerAlign flex'>
                 {(projectDetails && projectDetails.codeLink) ? <a href={projectDetails && projectDetails.codeLink} target="_blank"><button>code</button></a> : null}
 
-                {(projectDetails && projectDetails.codeLink) ? <a href={projectDetails && projectDetails.viewLink} target="_blank"><button>view</button></a> : null}
+                {(projectDetails && projectDetails.viewLink) ? <a href={projectDetails && projectDetails.viewLink} target="_blank"><button>view</button></a> : null}
 
             </div>
         </div>
