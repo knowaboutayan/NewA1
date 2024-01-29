@@ -20,7 +20,7 @@ const Projects = () => {
         projectDescription: "Our Python-based project combines image background removal and size reduction seamlessly using popular packages like Pillow and OpenCV. Users can effortlessly remove backgrounds with precision algorithms, enhancing image versatility for various applications. Additionally, the tool allows resizing images to desired dimensions while maintaining aspect ratios, optimizing them for different platforms. With a user-friendly interface and efficient processing, our project streamlines image editing tasks, saving time and effort. Whether for graphic design, e-commerce, or personal use, our solution empowers users to achieve professional-quality results with ease, making it an essential tool for diverse image editing needs.",
         technology: ["fab fa-python"],
         codeLink: "https://github.com/knowaboutayan/image-compressor-and-converter",
-        viewLink: "https://keyboard-tester-lime.vercel.app/"
+      
     },
     {
         projectName: "Password Generator",
