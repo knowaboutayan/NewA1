@@ -52,5 +52,6 @@
     flex: 1;
     min-width: 300px;
     padding: 55px;
+    box-sizing: border-box;
     background-color: rgba(229, 231, 231, 0.716);
 }
