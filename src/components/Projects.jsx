@@ -16,6 +16,13 @@ const Projects = () => {
         viewLink: "https://wearher-app-tau.vercel.app/"
     },
     {
+        projectName: "Image Resizer & Background Remover",
+        projectDescription: "The Keyboard Test application offers users a comprehensive platform to evaluate the performance and functionality of their keyboards in real-time. With detailed keypress information and interactive displays, users can assess key responsiveness, rollover capabilities, and overall typing experience. This tool is invaluable for individuals seeking to optimize their typing efficiency, troubleshoot keyboard issues, or evaluate keyboard performance under various conditions. Whether for professional use, gaming, or personal computing, the Keyboard Test application provides insights and diagnostics to enhance the user's keyboard experience and productivity.",
+        technology: ["fab fa-python"],
+        codeLink: "https://github.com/knowaboutayan/image-compressor-and-converter",
+        viewLink: "https://keyboard-tester-lime.vercel.app/"
+    },
+    {
         projectName: "Password Generator",
         projectDescription: "The Password Generator is a robust solution designed to enhance digital security by generating strong and secure passwords. With sophisticated algorithms, it creates passwords that meet stringent security requirements, including complexity and randomness. This tool empowers users to safeguard their online accounts against unauthorized access and cyber threats. The Password Generator simplifies the process of creating and managing passwords, promoting better security practices and ensuring peace of mind for users in an increasingly digital landscape.",
         technology: ["fab fa-react", "fab fa-css3"],
