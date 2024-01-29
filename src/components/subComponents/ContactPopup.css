@@ -1,0 +1,50 @@
+.popUp{
+    background:linear-gradient( 45deg,rgba(143, 222, 109, 0.378),rgba(95, 188, 245, 0.555));
+    backdrop-filter: blur(25px);
+    z-index: 2;
+    position: fixed;
+  
+    top: 10px;
+    bottom: 10px;
+    
+    border-radius: 25px;
+    box-shadow: 0 0 225px 50px black;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:60%;
+    min-width: 300px;
+    align-items: center;
+    animation: reverse;
+    opacity:0;
+    
+}
+@keyframes popUpCome {
+    from{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to{
+        opacity: 1;
+      transform: translateX(0px);
+    }
+    
+}
+.popUp i.fa-close{
+    padding: 10px;
+    border-top-right-radius: 25px;
+    background-color: rgba(39, 38, 38, 0.535);
+    color: rgb(243, 238, 238);
+    font-size: 35px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.popUp i.fa-close:hover{
+    color: red;
+    background-color: black;
+
+}
+.flex1{
+min-width: 300px;
+    flex:1;
+}

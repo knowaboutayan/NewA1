@@ -55,14 +55,19 @@ const Projects = () => {
     ];
 
     const [index, setIndex] = useState(0);
-
-    const clicked = (e) => {
-        setIndex(e)
-        clearInterval(autoSwitch);
-        autoSwitch;
+    const autoSwitch= () => {
+        setIndex((index + 1) % projectDetails.length);
 
     }
-    const autoSwitch = setInterval(() => setIndex(pre => (pre + 1) % projectDetails.length), 5000);
+    let setInt = setTimeout(autoSwitch, 5000);
+
+    const clicked = (e) => {
+        clearTimeout(setInt)
+        setIndex(e % projectDetails.length)
+    }
+
+
+
 
     return (
         <>   <SectionTitle sectionName={"Project"} />
@@ -73,7 +78,7 @@ const Projects = () => {
                     }
                 </div>
                 <div id="projectDetails" >
-                    {(index < projectDetails.length && index >= 0) ? <ProjectCard projectDetails={projectDetails[index]} /> : null}
+                    {(index < projectDetails.length && index >= 0) ? <ProjectCard projectDetails={projectDetails[index]} /> : <article><h2>Loading...</h2></article>}
                 </div>
             </div>
         </>

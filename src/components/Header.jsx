@@ -1,7 +1,14 @@
 import { Link, NavLink } from "react-router-dom"
 import Logo from "../../images/logo2.png"
 import "../css/header.css"
+import ContactPopup from "./subComponents/ContactPopup"
+import { useState } from "react"
 const Header = () => {
+    const [showPopup,setShowPopup]=useState(false)
+    const showPop=()=>{
+        setShowPopup(!showPopup)
+        
+    }
 
     return (
         <>
@@ -25,8 +32,14 @@ const Header = () => {
                         Contact
                     </NavLink>
                 </div>
-                <div style={{}}><span>|</span> <button to="contactform" style={{}}><i className="fas fa-envelope"></i> Hire Me</button></div>
+                <div style={{}}><span>|</span><button to="contactform" onClick={showPop}><i className="fas fa-envelope"></i>Hire Me</button></div>
             </nav>
+            <div>
+                
+            {
+                (showPopup)?<ContactPopup closePopup={showPop}/>:null
+            }
+            </div>
         </>)
 }
 

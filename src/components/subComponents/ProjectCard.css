@@ -1,7 +1,16 @@
-.project-card article{
+.project-card {
+    transition: all 0.5s;
+    animation: loading 2s ease 0.2s 1 forwards;
+}
+
+
+.project-card article {
+
     height: 180px;
     overflow: auto;
+
 }
+
 .project-card h2 {
     font-size: 2rem;
     /* Set font size for project name */
@@ -13,13 +22,16 @@
 
 .project-card p {
     margin-bottom: 10px;
+    justify-content: left;
+
     /* Add margin at the bottom of technology icons */
 }
 
 .project-card i {
-    font-size: 3em;
+    font-size: 2em;
+   margin: 5px;
     /* Set font size for technology icons */
-    margin-right: 10px;
+
     /* Add margin between technology icons */
 }
 
@@ -27,6 +39,7 @@
     background-color: #007bff;
     /* Set background color for buttons */
     color: #fff;
+    margin: 15px 0 0 0;
     /* Set text color for buttons */
     border: none;
     /* Remove button border */
