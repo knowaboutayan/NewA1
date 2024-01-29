@@ -17,7 +17,7 @@ const Projects = () => {
     },
     {
         projectName: "Image Resizer & Background Remover",
-        projectDescription: "The Keyboard Test application offers users a comprehensive platform to evaluate the performance and functionality of their keyboards in real-time. With detailed keypress information and interactive displays, users can assess key responsiveness, rollover capabilities, and overall typing experience. This tool is invaluable for individuals seeking to optimize their typing efficiency, troubleshoot keyboard issues, or evaluate keyboard performance under various conditions. Whether for professional use, gaming, or personal computing, the Keyboard Test application provides insights and diagnostics to enhance the user's keyboard experience and productivity.",
+        projectDescription: "Our Python-based project combines image background removal and size reduction seamlessly using popular packages like Pillow and OpenCV. Users can effortlessly remove backgrounds with precision algorithms, enhancing image versatility for various applications. Additionally, the tool allows resizing images to desired dimensions while maintaining aspect ratios, optimizing them for different platforms. With a user-friendly interface and efficient processing, our project streamlines image editing tasks, saving time and effort. Whether for graphic design, e-commerce, or personal use, our solution empowers users to achieve professional-quality results with ease, making it an essential tool for diverse image editing needs.",
         technology: ["fab fa-python"],
         codeLink: "https://github.com/knowaboutayan/image-compressor-and-converter",
         viewLink: "https://keyboard-tester-lime.vercel.app/"
@@ -37,19 +37,20 @@ const Projects = () => {
         viewLink: "https://currency-converter2-nine.vercel.app/"
     },
     {
-        projectName: "Matrix Operations",
-        projectDescription: "The Matrix Operations project provides a versatile platform for performing various matrix operations, including addition, subtraction, and multiplication. It serves as a valuable tool for mathematicians, engineers, and students alike, enabling them to manipulate matrices efficiently and analyze complex data sets. With an intuitive interface and robust functionality, users can input matrices of any size and perform calculations with ease. The Matrix Operations project enhances productivity and facilitates deeper insights into mathematical concepts, empowering users to tackle sophisticated problems with confidence.",
-        technology: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
-        codeLink: "https://github.com/knowaboutayan/Matrix-Operations",
-        viewLink: "https://matrix-operations-dusky.vercel.app/"
-    },
-    {
         projectName: "Keyboard Test",
         projectDescription: "The Keyboard Test application offers users a comprehensive platform to evaluate the performance and functionality of their keyboards in real-time. With detailed keypress information and interactive displays, users can assess key responsiveness, rollover capabilities, and overall typing experience. This tool is invaluable for individuals seeking to optimize their typing efficiency, troubleshoot keyboard issues, or evaluate keyboard performance under various conditions. Whether for professional use, gaming, or personal computing, the Keyboard Test application provides insights and diagnostics to enhance the user's keyboard experience and productivity.",
         technology: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
         codeLink: "https://github.com/knowaboutayan/keyboard-tester",
         viewLink: "https://keyboard-tester-lime.vercel.app/"
     },
+    {
+        projectName: "Matrix Operations",
+        projectDescription: "The Matrix Operations project provides a versatile platform for performing various matrix operations, including addition, subtraction, and multiplication. It serves as a valuable tool for mathematicians, engineers, and students alike, enabling them to manipulate matrices efficiently and analyze complex data sets. With an intuitive interface and robust functionality, users can input matrices of any size and perform calculations with ease. The Matrix Operations project enhances productivity and facilitates deeper insights into mathematical concepts, empowering users to tackle sophisticated problems with confidence.",
+        technology: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
+        codeLink: "https://github.com/knowaboutayan/Matrix-Operations",
+        viewLink: "https://matrix-operations-dusky.vercel.app/"
+    }
+    
 
     ];
 
@@ -68,7 +69,7 @@ const Projects = () => {
                     }
                 </div>
                 <div id="projectDetails" >
-                    {(index <= 4 && index >= 0) ? <ProjectCard projectDetails={projectDetails[index]} /> : null}
+                    {(index <projectDetails.length  && index >= 0) ? <ProjectCard projectDetails={projectDetails[index]} /> : null}
                 </div>
             </div>
         </>
