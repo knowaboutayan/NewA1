@@ -1,12 +1,12 @@
 import { Link, NavLink } from "react-router-dom"
-import Logo from "../../../counter/images/logo2.png"
+import Logo from "../../images/logo2.png"
 import "../css/header.css"
 const Header = () => {
 
     return (
         <>
             <nav >
-                <div><img src={Logo} id="logo" alt="logo" style={{ maxWidth: "300px" }} /></div>
+                <div><li></li><img src={Logo} id="logo" alt="logo" style={{ maxWidth: "300px" }} /></div>
                 <div className="menu">
                     <NavLink className="link" to="">Home</NavLink>
                     <NavLink className="link" to="about">

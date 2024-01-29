@@ -3,7 +3,7 @@ import "../../index.css"
 const Slide1 = () => <>
     
     
-    <div className="flex flexRowDirection flexWrap slide1">
+    <div className="flex  flexRowDirection flexWrap slide1">
     
         <div className="flex flexColumnDirection" id="details">
            
