@@ -1,0 +1,48 @@
+/* Footer.css */
+
+.footer {
+    background-color: #3b3b3b;
+    /* Set background color for the footer */
+    color: #ffffff;
+    /* Set text color for the footer */
+    padding: 20px;
+    /* Add padding to the footer */
+    text-align: center;
+    margin: 15px 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.5em;
+}
+
+.footer h3 {
+    font-size: 18px;
+    /* Set font size for the headings */
+    margin-bottom: 10px;
+    /* Add margin at the bottom of the headings */
+}
+
+.footer Link {
+    font-size: 16px;
+    /* Set font size for the links */
+    margin-bottom: 5px;
+    /* Add margin at the bottom of the links */
+    text-decoration: none;
+}
+
+.footer h5:hover {
+    color: #ccc;
+    /* Change text color on hover */
+    text-decoration: none;
+    /* Remove default underline on hover */
+}
+
+.footer p {
+    font-size: 14px;
+    /* Set font size for the paragraph */
+    margin-top: 10px;
+    /* Add margin at the top of the paragraph */
+}
+
+.footer i {
+    color: red;
+    /* Set color for the heart icon */
+}

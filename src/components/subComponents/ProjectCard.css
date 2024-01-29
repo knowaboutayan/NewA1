@@ -1,0 +1,46 @@
+.project-card article{
+    height: 180px;
+    overflow: auto;
+}
+.project-card h2 {
+    font-size: 2rem;
+    /* Set font size for project name */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    /* Add margin at the bottom of project name */
+}
+
+
+.project-card p {
+    margin-bottom: 10px;
+    /* Add margin at the bottom of technology icons */
+}
+
+.project-card i {
+    font-size: 3em;
+    /* Set font size for technology icons */
+    margin-right: 10px;
+    /* Add margin between technology icons */
+}
+
+.project-card button {
+    background-color: #007bff;
+    /* Set background color for buttons */
+    color: #fff;
+    /* Set text color for buttons */
+    border: none;
+    /* Remove button border */
+    padding: 8px 16px;
+    /* Add padding for buttons */
+    margin-right: 10px;
+    /* Add margin between buttons */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+    text-decoration: none;
+    /* Remove default button underline */
+}
+
+.project-card button:hover {
+    background-color: #0056b3;
+    /* Change background color on hover */
+}

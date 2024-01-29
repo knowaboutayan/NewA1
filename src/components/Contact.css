@@ -1,0 +1,20 @@
+.contact{
+    justify-content: space-between;
+    background-color: ghostwhite;
+}
+
+.contact #contactInfo{
+    flex:1;
+    background-color: rgba(50, 255, 47, 0.526);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+.contact #contactDetails{
+    flex:1;
+    justify-content: space-around;
+    background-color: rgba(38, 176, 6, 0.758);
+    
+    
+
+    
+}

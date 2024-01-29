@@ -1,0 +1,32 @@
+/* SkillCard.css */
+
+.skill-card {
+    background-color: #f4f4f4; /* Set background color */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 8px; /* Add border radius */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    transition: box-shadow 0.3s ease; /* Add transition for box shadow */
+    margin-bottom: 20px; /* Add margin for spacing */
+    
+}
+
+.skill-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+}
+
+.skill-card i {
+    font-size: 4em; /* Set font size for icon */
+    margin-bottom: 10px; /* Add margin at the bottom of the icon */
+}
+
+.skill-card h2 {
+    font-size: 2em; /* Set font size for heading */
+    margin-bottom: 10px; /* Add margin at the bottom of the heading */
+}
+
+.skill-card p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px; /* Set font size for paragraph */
+}

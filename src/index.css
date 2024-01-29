@@ -1,0 +1,63 @@
+button {
+  padding: 15px;
+  width:130px;
+  background: rgb(130, 238, 40);
+  cursor: pointer;
+  border: 1px;
+  color: rgb(254, 255, 255);
+  border-radius: 10px;
+  font-size: large;
+  background: -moz-linear-gradient(45deg, rgba(130, 238, 40, 1) 19%, rgba(71, 194, 230, 1) 83%);
+  background: -webkit-linear-gradient(45deg, rgba(130, 238, 40, 1) 19%, rgba(71, 194, 230, 1) 83%);
+  background: linear-gradient(45deg, rgba(130, 238, 40, 1) 19%, rgb(80, 196, 231) 83%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#82ee28", endColorstr="#47c2e6", GradientType=1);
+  transition: all 0.5s;
+}
+
+button:hover {
+  width:150px;
+  
+}
+
+
+@keyframes btnAnimation {
+  0% {
+    
+    background: linear-gradient(45deg, rgba(130, 238, 40, 1) 19%, rgb(80, 196, 231) 83%);
+  }
+50%{
+  background: linear-gradient(45deg, rgba(130, 238, 40, 1) 50%, rgb(80, 196, 231));
+}
+  100% {
+    background: linear-gradient(45deg, rgba(130, 238, 40, 1) 100%);
+  }
+
+
+}
+.flex{
+  display: flex;
+}
+.flexRowDirection{
+  flex-direction: row;
+}
+.flexColumnDirection{
+  flex-direction: column;
+}
+.flexWrap{
+  flex-wrap: wrap;
+}
+
+.centerAlign{
+  justify-content: center;
+  align-items: center;
+}
+
+.autoMargin{
+  margin: auto;
+}
+
+article {
+  font-size: 1.5rem;
+  color: rgb(74, 74, 74);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

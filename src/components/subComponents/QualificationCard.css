@@ -1,0 +1,25 @@
+/* QualificationCard.css */
+
+.qualificationBox {
+    background-color: rgb(153, 216, 144); /* Set background color to green */
+    color: rgb(25, 24, 24); /* Set text color to white */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    width: 300px; /* Set a fixed width */
+    margin-bottom: 20px; /* Add margin for spacing between cards */
+    box-shadow: 0 0 12px 2px rgb(55, 55, 55);
+    height: 30vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#icon {
+    margin-right: 20px; /* Add margin to the icon for spacing */
+}
+
+h2, h4 {
+    
+    margin: 5px 0; /* Add margin to headings for spacing */
+}
