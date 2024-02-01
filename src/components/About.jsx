@@ -1,4 +1,4 @@
-import QualificationCard from "./subComponents/QulificationCard";
+
 import SectionTitle from "./subComponents/SectionTitle";
 import '@fortawesome/fontawesome-free/css/all.css';
 import "./About.css"
