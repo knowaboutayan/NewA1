@@ -6,8 +6,21 @@ const color = "color:red"
 const About = () => <>
     <SectionTitle sectionName={"About"} />
     <div className="about flex flexRowDirextion flexWrap ">    <div >
-        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque eligendi, esse molestias veniam explicabo. Expedita soluta ipsam animi illo veritatis. Eaque facere fuga asperiores quasi dolorum quibusdam fugit corporis. Est, eum! Magnam sint fugit optio possimus temporibus consequatur! Illo dolores facilis hic quidem provident, natus possimus impedit, accusantium earum voluptatibus laudantium dignissimos veniam.</article>
-    </div>
+        <article>
+
+<main>Hello there!</main> I'm <big><b>Ayan Pradhan</b></big>, a passionate student pursuing Mathematics Honours while delving deep into the realms of technology. With a profound interest in both mathematics and technology, I find joy in exploring the intricate connections between the two domains.
+
+My journey into the world of technology has been exhilarating, especially in the realm of web development. I've honed my skills in various web technologies, including ReactJS, CSS, and HTML, allowing me to craft engaging and dynamic web experiences.
+
+As a mathematics enthusiast, I thrive on solving complex problems and approaching challenges with analytical thinking. I believe that the problem-solving skills inherent in mathematics beautifully complement the creativity and logic required in web development.
+
+Beyond coding and equations, I am driven by a relentless curiosity to learn and grow. I constantly seek new opportunities to expand my knowledge and skills, whether it's exploring the latest developments in technology or diving into the depths of mathematical theory.
+
+In my journey as a student and a tech enthusiast, I aspire to leverage my skills to create meaningful contributions that resonate with users and make a positive impact in the digital world.
+
+Join me as I embark on this exciting journey of exploration, innovation, and growth!
+
+</article>    </div>
 
         <div id="socialMedia" className="flex flexRowDirection centerAlign">
             
