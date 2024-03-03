@@ -8,7 +8,14 @@ import { Outlet } from "react-router-dom";
 
 
 const Projects = () => {
-    const projectDetails = [{
+    const projectDetails = [ {
+        projectName: "Quiz Application ",
+        projectDescription: "🚀 Introducing Quizify: Your Gateway to Knowledge and Fun! Explore diverse quizzes, challenge yourself, and unlock new horizons. Join us on the journey of exploration and learning! ",
+        technology: ["fab fa-react", "fab fa-css3"],
+        viewLink: "https://quiz-app-five-theta.vercel.app/questions",
+
+    },
+{
         projectName: "Weather Application",
         projectDescription: "The Weather Application is a comprehensive tool that provides users with real-time weather updates and forecasts spanning over 5 days. Users can conveniently track weather conditions for their desired locations, ensuring they stay informed and prepared for changes in atmospheric conditions. With the added feature of voice search functionality, users can interact with the application hands-free, enhancing accessibility and user experience.",
         technology: ["fab fa-react", "fab fa-css3"],
