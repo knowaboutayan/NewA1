@@ -12,7 +12,7 @@ const Projects = () => {
         projectName: "Quiz Application ",
         projectDescription: "🚀 Introducing Quizify: Your Gateway to Knowledge and Fun! Explore diverse quizzes, challenge yourself, and unlock new horizons. Join us on the journey of exploration and learning! ",
         technology: ["fab fa-react", "fab fa-css3"],
-        viewLink: "https://quiz-app-five-theta.vercel.app/questions",
+        viewLink: "https://quiz-app-five-theta.vercel.app/",
 
     },
 {
