@@ -10,7 +10,7 @@ import { Outlet } from "react-router-dom";
 const Projects = () => {
     const projectDetails = [ 
         projectName: "Hostel Management",
-        projectDescription: "🚀 This ReactJS-based Hostel Management App, powered by Appetite backend, offers a user-friendly interface for hostel management. Users register securely, while admins track daily expenses and member deposits. Automated calculations ensure accurate financial management, enhancing operational efficiency.
+        projectDescription: "🚀 This ReactJS-based Hostel Management App, powered by Appetite backend, offers a user-friendly interface for hostel management. Users register securely, while admins track daily expenses and member deposits. Automated calculations ensure accurate financial management, enhancing operational efficiency.",
         technology: ["fab fa-react", "fab fa-css3"],
         viewLink: "hostel-management-lilac.vercel.app",
 
