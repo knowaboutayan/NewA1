@@ -8,7 +8,15 @@ import { Outlet } from "react-router-dom";
 
 
 const Projects = () => {
-    const projectDetails = [ {
+    const projectDetails = [ 
+        projectName: "Hostel Management",
+        projectDescription: "🚀 This ReactJS-based Hostel Management App, powered by Appetite backend, offers a user-friendly interface for hostel management. Users register securely, while admins track daily expenses and member deposits. Automated calculations ensure accurate financial management, enhancing operational efficiency.
+        technology: ["fab fa-react", "fab fa-css3"],
+        viewLink: "hostel-management-lilac.vercel.app",
+
+    },
+
+{
         projectName: "Quiz Application ",
         projectDescription: "🚀 Introducing Quizify: Your Gateway to Knowledge and Fun! Explore diverse quizzes, challenge yourself, and unlock new horizons. Join us on the journey of exploration and learning! ",
         technology: ["fab fa-react", "fab fa-css3"],
